@@ -1,113 +1,117 @@
-
-
-.custom-nav-url{
-    width:100% !important;
+.custom-nav-url {
+    width: 100% !important;
     display: flex;
     justify-content: flex-end;
 }
 
-.nav-link{
+.nav-link {}
 
-}
-
-.slider-img{
-    height:47rem !important;
+.slider-img {
+    height: 47rem !important;
     filter: brightness(72%);
 }
 
-
-
-.slider-cap{
-    height:47rem;
+.slider-cap {
+    height: 47rem;
     position: relative;
-    top:-47rem;
-    display:flex;
-    align-items:center;
+    top: -47rem;
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
-.slider-cap-cont{
-    
+.slider-cap-cont {}
+
+.slider-cap-cont img {
+    display: block;
+    width: 18rem;
+    height: 16rem;
+    margin: 0 auto;
 }
 
-.slider-cap-cont img{
-    display:block;
-width:18rem;
-height:16rem;
-margin:0 auto;
-}
-
-.slider-cap-cont h1{
-    color:white;
+.slider-cap-cont h1 {
+    color: white;
     text-align: center;
-    font-size:4rem;
-    font-weight:200;
+    font-size: 4rem;
+    font-weight: 200;
 }
-.slider-cap-cont p{
-    color:white;
+
+.slider-cap-cont p {
+    color: white;
     text-align: center;
-    font-size:3rem;
-    font-weight:200;
+    font-size: 3rem;
+    font-weight: 200;
 }
 
-.welcome-img{
-    width:100% !important;
-    height:35rem;
+.welcome-img {
+    width: 100% !important;
+    height: 35rem;
 }
 
-.recent-post-img{
+.recent-post-img {
     width: 15rem !important;
     height: 17rem !important;
 }
 
-.blog-post-img{
-    height:19rem !important;
+.blog-post-img {
+    height: 19rem !important;
 }
 
-.custom-card{
+.custom-card {
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
-.custom-pagenation-btn{
+.custom-pagenation-btn {
     font-size: 2rem;
-    margin:0 4rem;
+    margin: 0 4rem;
 }
 
-footer{
+footer {
     background-color: rgb(70, 62, 62);
-    padding:1rem;
+    padding: 1rem;
 }
 
-footer>p{
-    color:white;
-    font-size:2rem;
+footer>p {
+    color: white;
+    font-size: 2rem;
     font-weight: 300;
     text-align: center;
 }
 
-.custom-admin-logo{
+.custom-admin-logo {
     display: block;
     width: 14rem;
     height: 15rem;
     margin: 0 auto;
 }
 
-.custom-login-btn{
+.custom-login-btn {
     box-shadow: rgba(11, 159, 238, 0.897) 0px 5px 15px;
 }
 
-.custom-admin-btn{
+.custom-admin-btn {
     font-size: 1.5rem;
 }
 
-@media only screen and (max-width:770px) {
-    .custom-pagenation-btn{
-        margin:0 2rem;
-    }
-  }
+.custom-post-img {
+    height: 50rem;
+}
 
-  @media only screen and (max-width:375px) {
-    .custom-pagenation-btn{
-        margin:0 0.8rem;
+.custom-post-img img {
+    height: 100%;
+}
+
+@media only screen and (max-width:770px) {
+    .custom-pagenation-btn {
+        margin: 0 2rem;
     }
-  }
+    .custom-post-img {
+        height: 15rem;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .custom-pagenation-btn {
+        margin: 0 0.8rem;
+    }
+}
